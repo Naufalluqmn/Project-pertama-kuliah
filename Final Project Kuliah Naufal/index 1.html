@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Template 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index 1.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width:100%;
+  height: 100px; /* only for demonstration, should be removed */
+  background: #ccc;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+article {
+  background-image: url("gambar/name.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  padding: 20px;
+  width: 80%;
+  
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+footer {
+  /*background-color: #777;*/
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+} */
+</style>
+</head>
+<body>
+    <marquee bgcolor="blue": style="border: 5px solid yellow;">
+        <h1>WELCOME TO MY WEBSITE</h1>
+    </marquee>
+
+    <div class="fContainer">
+      <nav class="wrapper">
+        <div class="brand">
+          <div class="firstname">dinus</div>
+          <div class="lastname">boys</div>
+        </div>
+        <ul class="navigation">
+          <li><a href="perkenalan.html">profil</a></li>
+          <li><a href="project 1.html">html</a></li>
+          <li><a href="index 1.html" class="active">css</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  
+<h2 align="center">CSS (Cascading Style Sheets)</h2>
+<br>
+<h3>Apa itu CSS?</h3>
+<p>Dikutip dari <a href="https://www.w3schools.com/css/css_intro.asp">W3Schools.com</a>, CSS adalah:</p>
+<ol>
+  <ul>
+    <li>CSS adalah singkatan dari Cascading Style Sheets</li>
+    <li>CSS dapat menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau media lainnya</li>
+    <li>CSS bisa menghemat banyak pekerjaan.</li> 
+    <li>CSS dapat mengontrol tata letak beberapa halaman web sekaligus.</li>
+  </ul>
+</ol>
+
+<h3>Adapun Syntax CSS pada elemen Heading nya yaitu:</h3>
+<br>
+<div style="text-align: center;">
+  <img src="mentahan/Screenshot (23).png" alt="gambar syntax CSS" width="500" height="300">
+</div>
+<br>
+<h5>Keterangan:</h5>
+<ol>
+  <ul>
+    <li><b>Color </b >adalah jenis <b>properti</b> yang digunakan untuk pemilihan warna pada font yang akan ditampilkan.</li>
+    <li><b>Blue </b>adalah jenis <b>value </b>yang digunakan untuk memberi warna pada font yang akan ditampilkan.</li>
+    <li><b>font-size </b> adalah jenis <b>properti</b> yang digunakan untuk mengatur ukuran pada font yang akan ditampilkan.</li>
+    <li><b>12px</b> adalah jenis <b>value</b> yang digunakan untuk mengetahui ukuran dari font yang akan ditampilkan.</li>
+  </ul>
+</ol>
+<h5>Penyisipan CSS</h5>
+<ol>
+  <ul>
+    <li>Inline</li>
+    <li>Internal</li>
+    <li>External</li>
+    <li>Urutan prioritas CSS adalah Inline, Internal, Eksternal.</li>
+  </ul>
+</ol>
+
+<ol>
+  <h5><pre>1. Inline</pre></h5>
+  <p>Inline adalah penyisipan CSS yang berada di dalam tagname html.</p>
+  <p>contoh: </p>
+</ol>
+<div style="text-align: center;">
+  <img src="mentahan/code4.png" alt="gambar penulisan inline CSS" width="500" height="300">
+  <img src="mentahan/Screenshot (25).png" alt="gambar hasil inline CSS" width="500" height="300">
+</div>
+<br>
+<ol>
+  <h5><pre>2.  Internal</pre></h5>
+  <p>Internal adalah penyisihan CSS yang berada di luar tagname tetapi masih di dalam ekstensi html.</p>
+</ol>
+<div style="text-align: center;">
+  <img src="mentahan/code5.png" alt="gambar penulisan internal CSS" width="500" height="300">
+  <img src="mentahan/Screenshot (27).png" alt="gambar hasil penulisan internal CSS" width="500" height="300">
+</div>
+<br>
+<ol>
+  <h5><pre>3.  External</pre></h5>
+  <p>External adalah penyisihan CSS dengan cara membedakan ekstensi filenya, dari ekstensi .html ke .css </p>
+</ol>
+<div style="text-align: center;">
+  <img src="mentahan/code6.png" alt="gambar penulisan internal CSS" width="500" height="300">
+  <img src="mentahan/Screenshot (29).png" alt="gambar hasil penulisan internal CSS" width="500" height="300">
+</div>
+
+<footer>
+  <h3>Terima kasih atas perhatiannya!</h3>
+</footer>
+<!--<header>
+  <h2>Web Development: Definisi, Jenis, dan Skil yang Harus Dikuasai</h2>
+</header> -->
+
+<!--<section>
+  <nav>
+    From Uiverse.io by mrhyddenn
+<button><a href="project 1.html">CLICK</a></button>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section> -->
+
+<!--<footer>
+  <p>Footer</p>
+</footer>
+-->
+</body>
+</html>
